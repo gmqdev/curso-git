@@ -8,5 +8,17 @@
 
 6. Invitar a otro usuario: Settings > Collaborators > Search by username... > Add Collaborator
 
-
-
+CASO PRÁCTICO: El equipo está trabajando sobre el mismo fichero
+1. Lo primero es hacer un pull: git pull
+2. Uno de los compañeros crea un fichero: notepad autores.txt
+3. Este mismo lo comparte:
+git add .
+git commit -a -m "Añadido fichero autores.txt"
+git push origin master
+4. Los demás compañeros se añaden al fichero autores
+5. Ahora tengo que hacer un pull para actualizar los ficheros compartidos: git pull
+6. Si intentamos editar los dos el mismo fichero ocurrirá que a alguno nos de un error tipo "error: failed to push some refs to ...". Entonces deberemos volver a un commit anterior:
+¡¡ ATENCIÓN !! SE PERDERÁN LOS CAMBIOS QUE HAYAS REALIZADO SOBRE EL FICHERO EN CONFLICTO
+git log
+(Aquí podremos ver el historial de commits y tomar el código alfanumérico al que queremos volver)
+git checkout eb9b03c2e22305c965b610aa84a7d316e5cb208d
