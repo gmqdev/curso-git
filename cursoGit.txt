@@ -4,3 +4,5 @@
 3. Hacer commit: git commit -a -m "Descripción de las modificaciones"
 4. Subir a GitHub: git push origin master
 [pedirá usuario y clave en una ventana emergente]
+
+5. Invitar a otro usuario: Settings > Collaborators > Search by username... > Add Collaborator
