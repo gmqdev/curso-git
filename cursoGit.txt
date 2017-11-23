@@ -1,6 +1,12 @@
-1. Crear documento: notepad HolaMundo
-2. Añadir al git: git add .
+1. Clonar el repositorio sobre el que vamos a trabajar: git clone https://github.com/gmqdev/curso-git.git
+2. Crear documento: notepad HolaMundo
+3. Añadir al git: git add .
 [Si no están configuradas las variables te pedirá que las añadas. Simplemente copiar y pegar lo que te dice cambiando el ejemplo por tu nombre de usuario y correo]
-3. Hacer commit: git commit -a -m "Descripción de las modificaciones"
-4. Subir a GitHub: git push origin master
+4. Hacer commit: git commit -a -m "Descripción de las modificaciones"
+5. Subir a GitHub: git push origin master
 [pedirá usuario y clave en una ventana emergente]
+
+6. Invitar a otro usuario: Settings > Collaborators > Search by username... > Add Collaborator
+
+
+
